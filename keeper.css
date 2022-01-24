@@ -1,0 +1,132 @@
+body{
+    background-image: url("bgpic.jpg");
+}
+
+#header{
+    padding: 0.1em;
+    color: rgba(255, 255, 255, 0.829);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 5em;
+    margin-top: -1%;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    transform: translateX(-8px);
+}
+
+#newd{
+    position: relative;
+}
+
+.new-keeps{
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.new-keep-title{
+    font-size: 1.5em;
+    width: 348px;
+    font-family: 'Lora', serif;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 20% 20% 0% 0%;
+    backdrop-filter: blur(1px);
+    padding: 0.5em;
+}
+
+.new-keep-msg{
+    font-size: 1.3em;
+    font-family: 'Lora', serif; 
+    border-radius: 0% 0% 20% 20%;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 0.5em;
+    backdrop-filter: blur(1px);
+    border: none;
+}
+
+.new-keep-title:focus{
+    outline: none;
+    
+}
+
+.new-keep-msg:focus{
+    outline: none;
+}
+
+#plus{
+    font-size: 35px;
+    width: 1.2em;
+    height: 1em;
+    padding: 0%;
+    padding-bottom: 1.15em;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0%;
+    right: 17em;
+    background-color: rgb(9, 255, 91);
+    transition: 0.2s;
+}
+
+#plus:hover{
+    background-color: rgb(108, 255, 157);
+}
+
+#plus:active{
+    transform: scale(0.9);
+}
+
+#keepsd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.keeps{
+    background-color: rgba(255, 255, 255, 0.664);
+    width: 20%;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10%;
+    backdrop-filter: blur(1px);
+}
+
+.keep-title{
+    font-size: 1.4em;
+    margin-bottom: 0.35em;
+    text-decoration: underline;
+}
+
+.keep-msg{
+    font-size: 1.2em;
+
+}
+
+.delete{
+    margin-top: 1em;
+    float: right;
+    background-color: none;
+    border: none;
+    border-radius: 10%;
+    padding-top: 0.3em;
+    width: 2.5em;
+    transition: 0.2s;
+}
+
+.delete:hover{
+    background-color: rgba(231, 231, 231, 0.993);
+}
+
+.delete:active{
+    transform: scale(0.9);
+}
+
+.del{
+    width: 1.5em;
+    height: 2em;
+    border-radius: 10%;
+    background-color: transparent;
+}
